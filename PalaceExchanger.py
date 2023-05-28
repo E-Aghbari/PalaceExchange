@@ -18,6 +18,27 @@ class Player:
     def gain_health(self):
         pass
 
+    def use_potion(self):
+        pass
+
     def __repr__(self):
         pass
 
+class Card:
+    def __init__(self, name, type, health):
+        pass
+
+    def attack(self):
+        pass
+
+    def use_potion(self):
+        pass
+
+    def __repr__(self):
+        pass
+
+class Spell:
+    spells = ["Holy", "Natural", "Fire", "Frost"]
+
+    def __repr__(self):
+        pass
