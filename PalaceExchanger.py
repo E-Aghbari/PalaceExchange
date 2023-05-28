@@ -41,7 +41,7 @@ class Card:
     warriors = {"Knight": [2, 2], "Paladin": [3, 1], "Berserker": [1, 3], "Archer": [2, 2], "Assassin": [1, 3], "Wizard": [3, 1]}
     def __init__(self, name, level = 1):
         if name in Card.warriors.keys():
-            self.name = [name]
+            self.name = name
             self.level = level
             self.health = Card.warriors[name][1] + level
             self.damage = Card.warriors[name][0] + level
